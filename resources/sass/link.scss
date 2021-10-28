@@ -1,0 +1,163 @@
+.footer-link {
+    background-color: $blue;
+    padding: 30px;
+}
+.link-logo {
+    margin-bottom: 50px;
+    img {
+        width: 25%;
+    }
+}
+.link-contact {
+    display: flex;
+    margin: 0 100px 0 100px;
+}
+.link-contact-block {
+    width: 50%;
+    justify-content: center;
+    .impact-link {
+        .impact-link-VOZ {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 10% 0 10%;
+        }
+       p {
+           a {
+               color: rgb(219, 7, 247);
+               font-size: 22px;
+               font-weight: bold;
+           }
+       }
+    }
+}
+#impact {
+    text-align: center;
+}
+.for-flex {
+    display: flex;
+    img {
+        width: 8%;
+        height: 8%;
+        margin: 15px 15px 0 0;
+    }
+}
+.tell-block {
+    p {
+        margin:0 0 10px 0;
+        font-size: 25px;
+    }
+    .cons {
+        margin: 50px 10px 50px 0;
+    }
+}
+.clock-block {
+    p {
+        margin: 10px;
+        font-size: 25px;
+    }
+}
+span {
+    font-weight: 700;
+    font-size: 30px;
+}
+.for-flex-link {
+    display: flex;
+    margin-top: 100px;
+    P {
+        width: 50%;
+    }
+    img {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 4096px) {
+    .link-logo {
+        margin-bottom: 50px;
+        img {
+            width: 20%;
+        }
+    }
+}
+@media screen and (max-width: 1920px) {
+    .link-logo {
+        margin-bottom: 50px;
+        img {
+            width: 30%;
+        }
+    }
+}
+@media screen and (max-width: 1400px) {
+    .tell-block {
+        p {
+            font-size: 18px;
+        }
+        .cons {
+            font-size: 20px;
+        }
+    }
+    span {
+        font-size: 25px;
+    }
+    .clock-block {
+        p {
+            font-size: 20px;
+        }
+    }
+}
+@media screen and (max-width: 1300px) {
+    .link-logo {
+        margin-bottom: 50px;
+        img {
+            width: 33%;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .link-contact {
+        margin: 0 50px 0 50px;
+    }
+    .link-logo {
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 45%;
+        }
+    }
+}
+@media screen and (max-width: 660px) {
+    .link-contact {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    .impact-link {
+        .impact-link-VOZ {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px 10% 0 10%;
+        }
+        margin-top: 50px;
+    }
+    #impact-header {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .link-logo {
+        display: none;
+    }
+}
+.author {
+    background-color: rgb(228, 228, 228);
+    padding: 12px;
+    text-align: center;
+    p {
+        margin: 0;
+        font-size: 10px;
+        color: rgb(114, 114, 114);
+    }
+}

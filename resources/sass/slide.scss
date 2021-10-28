@@ -1,0 +1,136 @@
+.slide_container {
+    display: flex;
+    text-align: center;
+    }
+    .main_slider {
+        display: flex;
+        justify-content: center;
+    }
+    .glide {
+        width: 1200px;
+        & img {
+            width: 100%;
+            height: 600px;
+            border-radius: 10px/10px;
+           
+            
+        }
+    }
+    .glide__slide {
+        list-style: none;
+    }
+    .glide__arrow {
+        background-color: #61d2ff85;
+        svg {
+            width: 2em;
+            height: 2em;
+        }
+    }
+    .glide__arrow, .glide__arrow--right svg {
+        transform: scaleX(-1);
+    }
+    @media screen and (max-width: 4096px) {
+        .glide {
+            width: 3000px;
+            & img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    @media screen and (max-width: 2560px) {
+        .glide {
+            width: 1600px;
+        }
+    }
+    @media screen and (max-width: 1920px) {
+        .glide {
+            width: 1200px;
+            & img {
+                width: 100%;
+                height: 600px;
+            }
+        }
+    }
+    @media screen and (max-width: 1680px) {
+        .glide {
+            width: 1000px;
+            & img {
+                height: 500px;
+            }
+        }
+    }
+    @media screen and (max-width: 1400px) {
+        .glide {
+            width: 950px;
+            & img {
+                height: 450px;
+            }
+        }
+    }
+    @media screen and (max-width: 1300px) {
+        .slide_container {
+            display: block;
+            text-align: center;
+            }
+            c
+        .glide {
+            width: 900px;
+            & img {
+                height: 450px;
+            }
+        }
+    }
+    @media screen and (max-width: 1024px) {
+        .glide {
+            width: 800px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .glide {
+            width: 650px;
+            & img {
+                height: 350px;
+            }
+        }
+    }
+    @media screen and (max-width: 650px) {
+        .glide {
+            width: 450px;
+            & img {
+                height: 300px;
+            }
+        }
+    }
+    @media screen and (max-width: 475px) {
+        .glide {
+            width: 350px;
+            & img {
+                height: 250px;
+            }
+        }
+    }
+    @media screen and (max-width: 350px) {
+        .glide {
+            width: 280px;
+            & img {
+                height: 200px;
+            }
+        }
+    }
+    @media screen and (max-width: 280px) {
+        .glide {
+            width: 230px;
+            & img {
+                height: 150px;
+            }
+        }
+    }
+    @media screen and (max-width: 230px) {
+        .glide {
+            width: 150px;
+            & img {
+                height: 100px;
+            }
+        }
+    }
